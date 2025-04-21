@@ -36,7 +36,7 @@ public class Rook extends Piece{
     public int[][] drawPath(int startX, int startY, int finalX, int finalY) {
         int x_diff = startX - finalX;
         int y_diff = startY - finalY;
-        int [][] path={{1,2},{2,1}};
+        int [][] path;
         if(x_diff==0){
 
         }else{
